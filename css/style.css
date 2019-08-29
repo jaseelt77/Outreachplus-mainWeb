@@ -1,0 +1,2228 @@
+
+*{
+box-sizing: border-box;
+
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ a{
+    text-decoration: none !important;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  /*  background: #fff;
+  */
+      background: #040b38;
+
+    
+}
+.navbar{
+    margin:  0 23px;
+
+}
+.navbar-nav li{
+    
+        padding: 0 9px;
+}
+.head{
+        /*margin: 0 24px;*/
+        margin-left: 24px;
+        margin-right: 10px;
+}
+.navbar-expand-lg .navbar-light{
+margin: 10px 44px !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    /*color: #4d4d4d;;
+ 
+    font-weight: 400;
+       font-family: "San Francisco";
+   font-size: 17px;*/
+       color: #fff !important;
+    font-weight: 400;
+    font-family: "San Francisco";
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   color: #356AE6 !important;
+     
+}
+.navbar-light .nav-item .get-demo:hover {
+   color: #fff !important;
+   background: #707070;
+     
+}
+
+.dropdown-toggle {position: relative;}
+.dropdown-toggle:before {position: absolute; content: '>';/*color: #707070*/color:#fff;font-weight: 400; right: -8px; transition: 0.3s;}
+.dropdown-toggle:hover:before {transform: rotate(90deg); transition: 0.3s;}
+.dropdown-item.active, .dropdown-item:active {background-color: initial!important;}
+.dropdown-menu{
+  background: #040b38; 
+  color: #fff;
+}
+.dropdown-item{
+  color: #fff !important;
+}
+
+.navbar-light .getstart .arrow-link {
+    color: #356AE6;
+}
+
+.navbar-brand{
+margin: 6px 14px;   
+}
+.navbar-brand img{
+        width: 150px;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #fff !important;
+}
+.navbar-light .getstart .get-login{
+ 
+     font-weight: 400;
+    font-family: "San Francisco" sans-serif;
+     transition: 0.5s all;
+}
+
+.getstart .get-demo{
+    align-items: center;
+     padding: 10px 10px;
+     transition: 0.5s all;
+background: #356AE6;
+    color: #fff !important;
+    border-radius: 7px;
+}
+.getstart .get-demo:hover{
+    background-color: #707070;
+color: #fff;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.navbar-toggler{
+    border:none;
+    outline: none !important;
+}
+.nav-item i{
+    color: blue;
+}
+.nav-item input{
+    border:none;
+    outline: none !important;
+    width: 100px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0px;
+}
+.page-title{
+            
+  margin-top: 100px;
+        font-size: 57px;
+    color: #455360;
+    margin-top: 100px;
+ 
+    font-family: yorkten-slab-normal, sans-serif;
+}
+
+.navbar-light  .getstart  .get-login {
+
+        font-weight: 400;
+    font-family: "San Francisco", sans-serif;
+      transform: translateX(10px);
+      transition: 0.5s all;
+}
+
+#home-section{
+    padding: 50px;
+    width: 100%;
+    overflow: hidden;
+    background: #040b38;
+    
+    background-size: cover;
+   
+
+}
+
+.home-def{
+            width: 100%;
+    margin-top: -17px;
+}
+.home-def .form-control{
+    box-shadow: none !important;
+}
+.home-desc{
+    color: #fff;
+    font-size: 25px;
+}
+.home-images{
+        margin-left: 201px;
+    margin-top: -25px;
+     width: 100%;
+
+}
+.home-secondary{
+    position: absolute;
+    margin-top: 24px;
+    right: 118px;
+}
+.home-title{
+     font-family: yorkten-slab-normal, sans-serif;
+    /*font-style: normal;*/
+    font-weight: 500;
+    font-size: 53px;
+    padding-top: 40px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+#home-clients{
+    padding-top: 50px !important;
+      padding-bottom: 75px;
+
+}
+.trust{
+    font-family: "San Francisco";
+    font-weight: 700;
+    font-size: 33px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #707070;
+}
+.clients-row{
+       padding: 0 25px;
+
+}
+#home-clients img{
+      padding: 20px 14px;
+}
+.form-control.email{
+
+    width: 133px;
+    background: none;
+    border-right: 4px solid #386CE6;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-radius: none;
+    border-radius: none !important;
+    border-radius: inherit;
+}
+.page-banner{
+    width: 100%;
+}
+
+
+.page-banner .title{
+   
+ /* font-size: 26px;
+
+    color: #B7B7B7;
+       font-family: "SF pro display - thin", sans-serif;*/
+       font-size: 20px;
+        color: #333333;
+
+    text-align: center;
+    font-family: "San Francisco";
+    font-weight: 300;
+}
+.page-banner span{
+   color: #737373;
+       color: #333333;
+  
+    font-weight: 100;
+    font-size: 20px;
+    /* color: #B7B7B7; */
+    text-align: center;
+    font-family: "San Francisco";
+    font-weight: 400;
+   
+}
+.page-banner img{
+    pointer-events: none;
+}
+.emails{
+    color: #a7a2a2;
+}
+.contact-forms{
+width: 100%;
+padding: 20px;
+border:2px solid #ddd;
+ border-radius: 5px;
+
+}
+.contact-forms form .form-row{
+margin: 20px auto;
+
+}
+#contact-form{
+        padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+
+#contact-form form{
+    margin-top: -20px;
+}
+form .form-control, form .form-control:visited,active{
+       box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+    background: #F8FAFB;
+    color:#C5C6C8 !important;
+}
+ 
+
+  .form-control.form-control:visited,active{
+    box-shadow: none !important;
+        outline: none !important;
+    /*border: none !important;*/
+    border:1px solid #ddd;
+   background: #ddd;
+     color: #C5C6C8;
+       font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+ }
+form textarea,button{
+    margin:0 5px;
+}
+ form input::placeholder,textarea::placeholder {
+    color: #C5C6C8;
+    font-size: 18px !important;
+
+   font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  
+ 
+    }
+
+.btn-primary{
+       background: #fff;
+    color: #6BBFF2;
+    padding: 6px 20px;
+    font-weight: 600;
+    border: 1px solid #6bbff2 !important;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+.anchor a{
+              color: #6BBFF2;
+        font-weight: 600;
+    position: absolute;
+    right: 50px;
+  text-decoration: none;
+    margin-top: -26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+    }
+    .mobile-no{
+    background: #D5F7D5;
+ height: 5.5rem;
+    margin: 0px auto;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    }
+    .mobile a img{
+       padding: 31px 0px;
+      width: 35px !important;
+   
+    
+   
+    }
+   
+    .mobile a{
+        text-decoration: none;
+   text-align: center;
+    font-size: 19px;
+    /* font-family: tahoma; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #55BD57;
+   
+    }
+    .email-id{
+  background: #F8FAFB;
+    height: 5.5rem;
+    margin: 0px auto;
+    margin-bottom: 33px;
+    border-radius: 5px;
+    }
+    .email-add a{
+       text-decoration: none;
+    padding: 36px 3px;
+    text-align: center;
+    color: #262626;
+    font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    }
+    .email-add a img{
+           padding: 31px 0px;
+   
+    }
+    .social-icons{
+    width: 100%;
+    margin-bottom: 32px;
+    }
+    .social-icons img{
+              height: 60px;
+    width: 60px;
+    margin: 0 11px;
+    }
+    .live-chat{
+    background: #71CC77;
+    height: 5.5rem;
+    margin: 0px auto;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    }
+    .chat-img{
+            padding: 31px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    }
+    #footer{
+        padding-bottom: 50px;
+    }
+    .footer-title{
+        margin-top: -9px;
+         color: #5A6672;
+   font-size: 38px;
+    margin-bottom: 53px;
+       font-family: yorkten-slab-normal, sans-serif;
+    }
+    .footer-box{
+    width: 100%;
+    padding-top: 50px !important;
+    }
+    .footer-box input{
+         font-family: "San Francisco";
+    font-weight: 200;
+           font-size: 19px !important;
+           color: #C5C6C8 !important;
+             box-shadow: none !important;
+    }
+    .footer-box input::placeholder{
+        color: #C5C6C8 !important;
+
+        font-size: 19px !important;
+
+   font-family: "San Francisco";
+    font-weight: 200;
+
+  padding-top: 5px !important;
+    }
+  
+.footer-box .already{
+  font-size: 18px;
+    color: #888585;
+    /*letter-spacing: 2px;*/
+   font-family: "San Francisco";
+    font-weight: 200;
+}
+    .footer-box p a{
+         font-size: 18px;
+    color: #858E96;
+    text-decoration: none;
+           font-family: "San Francisco";
+    font-weight: 200;
+  
+    }
+    .footer-box p a:hover{
+    color: #356AE6;
+    
+    }
+    .form-row input::placeholder{
+        color: #D7D8D9
+    }
+    .form-row textarea::placeholder{
+        color: #D7D8D9
+    }
+    .brand{
+           
+    width: 150px;
+    }
+   .contact{
+    padding: 20px;
+   }
+   .social-media-footer{
+     /*margin-top: 41px;*/
+         margin-top: 25px;
+   }
+.already{
+        margin-top: 43px;
+    font-weight: 500;
+    
+    color: #868282;
+}
+.already a b{
+        color: #9CDEEB;
+    font-family: "San Francisco";
+    font-weight: 300;
+}
+.already a:hover b {
+    color: #356AE6;
+
+    
+}
+.already a{
+    text-decoration: none;}
+    .copy-right{
+         font-size: 17px;
+        color: #858E96;
+ 
+     font-family: "San Francisco";
+  font-weight: 400;
+  
+
+    }
+     .terms_conditions{
+     display: flex;
+    flex-direction: row-reverse;
+    padding-top: 32px;
+    }
+    .terms_conditions a{
+font-size: 18px;
+    color: #858E96;
+    text-decoration: none;
+    font-family: "San Francisco";
+    font-weight: 200;
+    padding: 0 20px;
+    transition: 0.3s all;
+    }
+    .terms_conditions a:hover{
+ color: #356AE6 !important;
+    }
+    .btn-default {
+    font-size: 18px;
+    background: #356AE6;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 31px;
+    border-radius: 5px;
+    font-family: "San Francisco";
+    font-weight: 600;
+    box-shadow: none !important;
+}
+.btn-default:hover {
+    background-color: #707070;
+    color: #fff;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+.btn-personal{
+    /*background: #2F4050;*/
+    background: #356AE6;
+    padding: 10px 22px;
+    outline: none !important;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: .3s all;
+}
+.btn-personal:hover{
+background-color: #707070;
+color: #fff;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+    
+    .input-group input{
+    height: 45px;
+    border-radius: 5px !important;
+    }
+  
+    #clients{
+            /* height: 33rem; */
+    background: #F8F9F9;
+    /* padding: 50px; */
+    padding-bottom: 85px;
+    padding-top: 85px;
+
+    }
+    .clients{
+       padding-top: 36px;
+    padding-bottom: 26px;
+
+    }
+ 
+    .clients-title{
+        font-size: 35px;
+   color: #455360;
+   
+          font-weight: 600;
+    font-family: "SF pro display - thin", sans-serif;
+    }
+    
+    .clients1 img{
+            padding: 17px 35px;
+
+    }
+    .dropdown-toggle::after {
+        display: none;
+    
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+    .btn-center{
+        margin: 4%;
+    }
+    .clients img{
+        padding: 13px 40px;
+
+    }
+    .btn-primary1{
+
+    background: #fff;
+    color: #2680dc;
+    padding: 6px 20px;
+    font-weight: 700;
+}
+.client-detailes{
+    color: #F8DBB4;
+    font-family: tahoma;
+    padding-top: 10px;
+}
+.client-detailes a{
+    color: #638CEA;
+}
+.powers{
+    background: #fff;
+    color: #356AE6;
+    margin-top: 10px;
+    padding: 10px 20px;
+       border: 1px solid #638CEA !important;
+        font-family: "SF pro display - thin", sans-serif;
+    font-weight: 600;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.client-detailes a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif
+}
+.client-detailes .fa{
+    color: blue;
+}
+#aboutus{
+        padding-bottom: 75px;
+    /* margin-top: 20px; */
+    padding-top: 75px;
+}
+.carousel-title{
+        font-size: 3.4rem;
+    margin-bottom: 44px;
+}
+.about-tile{
+       font-size: 38px;
+    color: #455360;
+    
+    font-family: yorkten-slab-normal, sans-serif;
+    /*color: #455360;
+   padding-bottom:40px;
+   font-family: yorkten-slab-normal, sans-serif;*/
+}
+.testimonials{
+   
+    margin:10px 10px; 
+   
+    border: 2px solid #E7E7E7;
+    border-radius: 5px;
+    outline: none !important;
+    z-index: 1;
+    background: #fff;
+}
+.contents{
+    
+    
+    background: url('../images/quates.png') no-repeat left;
+    
+}
+
+.testimonial-img{
+   display: flex;
+   justify-content: space-between;
+}
+.testimonial-img img{
+        width: 100%;
+    overflow: hidden;
+    height: 356px;
+    padding-top: 61px;
+    position: relative;
+    margin-bottom: -282px;
+        margin-left: 2px;
+}
+.btn-next{
+     position: absolute;
+    right: -48px;
+      margin-top: -152px;
+    background: #fff !important;
+    border: none !important;
+    outline: none !important;
+ }
+ .btn-previous{
+  position: absolute;
+    left: -48px;
+    margin-top: 114px;
+    background: #fff !important;
+    border: none !important;
+    outline: none !important;
+ }
+.navbar-nav  input{
+margin-left: 10px;
+}
+.slider-head{
+    padding: 11px 20px;
+}
+.client-review span{
+    color: #607883;
+   
+    font-family: "San Francisco";
+    font-weight: 500;
+}
+.client-review{
+    padding: 15px 16px;
+    font-size: 19px;
+       color: #455360;
+    font-family: "San Francisco";
+    font-weight: 200;
+}
+.img-client{
+        width: 120px;
+    /* padding: 1px 0; */
+    margin-top: 5px;
+}
+.user-detailes{
+       position: relative;
+    padding-top: -18px;
+    margin-left: 65px;
+    margin-top: -36px;
+    font-size: 13px;
+  
+    color: #858E96;;
+        font-family: 'Roboto', sans-serif;
+ 
+    font-weight: 400;
+}
+
+
+.social-media-footer span{
+    margin-left: 50px;
+    margin: 0px 20px;
+}
+.img-social{
+        margin-left: 14px;
+    transition: 0.5s all;
+}
+.footer-box .footer-title-box{
+       font-size: 17px;
+    position: relative;
+    color: #888585;
+    letter-spacing: 1px;
+       font-family: "San Francisco";
+    font-weight: 500;
+  padding-bottom: 20px;
+}
+.social-media-footer .img-social:hover{
+    transform: translateY(-10px);
+    border-radius: 4px;
+    background: #356AE6;
+    transition: 0.5s all;
+
+
+}
+.dropdown-menu .dropdown-item{
+      color: #4d4d4d;;
+          font-weight: 400;
+    font-family: "San Francisco" sans-serif;
+    font-size: 17px;
+}
+.dropdown-menu a:hover {
+    color: #356AE6 !important;
+
+}
+.dropdown-menu::before{
+    border:0;
+}
+
+/*  defenitions */
+
+#defenition{
+   
+    padding-bottom: 50px;
+}
+.page-banner .missin-title {
+
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+   font-family: "San Francisco";
+    font-weight: 200;
+}
+.defnition{
+       padding-top: 50px;
+        color: #333333;
+   font-family: "San Francisco";
+    font-weight: 200;
+   font-size: 20px;
+    text-align: center;
+}
+.defenition{
+    color: #333333;
+    font-family: "San Francisco";
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#defenition span{
+    /*color: #979797;*/
+    color: #333333;
+  
+    font-weight: 400;
+}
+/* core values*/
+#core-values{
+
+padding: 50px;
+}
+.core-values{
+      width: 100% !important;
+       padding-bottom: 51px;
+
+}
+.core-values img{
+    width: 100%;
+}
+.core-plan {
+    position: relative;
+    margin-top: -291px;
+    border-radius: 5px;
+}
+.core-plan img{
+  margin-top: 10px;
+    width: 94%;
+    transition: 0.5s all;
+
+}
+.paragraph-core{
+    text-align: left;
+    margin: 0 0 0 11px;
+       color: #333333;
+    font-weight: 200;
+    font-size: 20px;
+    padding-top: 25px !important;
+
+}
+.core-title{
+    font-weight: 600;
+    font-size: 19px;
+    color: #262626;
+    font-family: "SF pro display - thin", sans-serif;
+    text-align: left;
+}
+.core-plan img:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+       border-radius: 5px;
+    transition: .5s all;
+}
+/*pricing page v2*/
+#price-section{
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.price-title{
+     margin-top: 50px;
+   font-size: 57px;
+    font-family: yorkten-slab-normal, sans-serif;
+       color: #455360;
+
+    }   
+    .page-banner .price-defenition {
+   font-size: 20px;
+    color: #455360;
+
+    text-align: center;
+    font-family: "San Francisco";
+    font-weight: 500;
+}
+
+.tabs {
+       padding-top: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.tab-list {
+    padding-bottom: 1rem;
+}
+.tab:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.tab:nth-child(2){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.tab {
+       border: 1px solid #F2F2F2;
+           white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 56px;
+    /*color: #EDEDED;*/
+    font-weight: 700;
+    background: #fff;
+  
+    margin: 0px -3px;
+    font-family: "San Francisco";
+    font-weight: 200;
+    color: blue;
+    font-weight: 400;
+}
+.tab.active {
+         color: #fff;
+    /*background: #3E85F7;*/
+    background: #356AE6;
+
+    border: 1px solid rgba(255, 255, 255, .6);
+}
+.tab.active:hover{
+     background-color: #707070;
+color: #fff;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+.price-boards{
+    width: 100%;
+}
+.price-plan{
+    width: 100%;
+}
+h3{
+    font-size: 28px;
+
+
+}
+.basic-title{
+      
+    /*font-weight: 200;*/
+    padding-top: 25px;
+    color: #4F5D6B;
+    font-family: "San Francisco";
+    font-weight: 500;
+    padding-bottom: 20px;
+
+   
+  
+}
+sup {
+    top: -1.5em;
+    margin-top: 34px;
+    padding-top: -23px;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.normal-title{
+    padding-top: 25px;
+   color: #fcb415;
+    font-family: "San Francisco";
+    font-weight: 500;
+    padding-bottom: 24px;
+     
+
+}
+.Prioraty-title{
+    padding-top: 25px;
+ 
+    font-family: "San Francisco";
+    font-weight: 500;
+    padding-bottom: 24px;
+        color: #34e2d9;
+}
+.dedicated-title{
+    padding-top: 25px;
+
+    font-family: "San Francisco";
+    font-weight: 500;
+    padding-bottom: 24px;
+        color: #71cc77;
+}
+.topado{
+    padding-top: 50px;
+    width: 100%;
+    background:  #71cc77;
+    padding-bottom: 50px;
+}
+.topado-defnition{
+     margin-top: 10px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #fff;
+}
+.topado-image{
+    padding-top: 54px;
+}
+.thousands_teams{
+	position: relative;
+    margin-left: 83px !important;
+}
+/*.topado-image img{
+   display: inline-block;
+    margin-top: 24px;
+
+}*/
+.btn-signup{
+    /*background: #3e85f7;*/
+    background: #356AE6;
+    box-shadow: none !important;
+    border:none !important;
+    padding: 10px 23px;
+    outline: none !important;
+    border-radius: 7px;
+    color: #fff;
+    transition: .3s all;
+
+}
+.btn-signup:hover{
+   background-color: #707070;
+color: #fff;
+box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+#questions{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.faq{
+        position: absolute;
+    margin-left: 21px;
+    font-size: 20px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #4F5D6B;
+    margin-top: 2px;
+}
+.faq-title{
+       padding-top: 25px;
+       padding-bottom:25px;
+    font-size: 38px;
+    /* font-family: yorkten-slab-normal, sans-serif; */
+    /*color: #333333;*/
+    color: #455360;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.faq-defenition{
+    /*color: #455360;*/
+       /*color: #4F5D6B;*/
+       color: #333333 !important;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+ 
+}
+.dropdown-menu .dropdown-item{
+        color: #707070;
+          font-weight: 400;
+    font-family: "San Francisco",sans-serif;
+        font-size: 18px;
+}
+.dropdown-menu a:hover {
+    color: #356AE6 !important;
+
+}
+
+.price-item:nth-child(1){
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.price-item:nth-child(2){
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-bottom-left-radius: 5px;
+}
+
+.price-item:nth-child(3){
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-bottom-left-radius: 5px;
+}
+
+
+.price-item:nth-child(4){
+    border-top: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.questions-sec{
+   padding-top: 6px;
+    font-family: "San Francisco";
+    font-weight: 400;
+    font-size: 23px;
+    padding-bottom: 15px;
+        color: #455360;
+}
+.question-def{
+    color: #9099A0;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+    /*color: #455360;*/
+        color: #333333;
+}
+.faq-defenition__anchor a{
+    font-size: 20px;
+    color: #00cdff;
+    font-family: "San Francisco";
+  font-weight: 400;
+}
+.faq-defenition__email a{
+     font-size: 20px;
+    color: #00cdff;
+    font-family: "San Francisco";
+  font-weight: 400;
+}
+.faq-defenition__email::after{
+    content: '';
+    background:#00cdff;
+    width: 25px;
+    height: 3px;
+}
+.faq-defenition__chat{
+    font-size: 20px;
+    color: #00cdff;
+    font-family: "San Francisco";
+  font-weight: 400;
+}
+.price-plan-normal{
+width: 100%;
+}
+.price-plan-priority{
+    width: 100%
+}
+.price-plan-dedicated{
+    width: 100%;
+}
+
+.prices-section{
+    padding-bottom: 50px;
+}
+.month{
+       margin-top: -20px;
+    margin-bottom: 23px;
+}
+.dollar{
+        color: #394050;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: yorkten-slab-normal, sans-serif;
+}
+.dollars{
+     color: #394050;
+    font-size: 25px;
+    margin-top: -17px;
+    font-weight: 600;
+    font-family: yorkten-slab-normal, sans-serif;
+}
+.dollars span{
+   display: block;
+    margin-top: -16px;
+    font-family: yorkten-slab-normal, sans-serif;
+}
+.spaces{
+        padding-bottom: 16px;
+}
+/**/
+
+.show_mobile {display: none;}
+.navbar_close {display: none;}
+.mobile_login {text-align: center; color: #455360; font-weight: 500; margin-bottom: 20px;}
+.mobile_login img {margin-left: 5px;}
+.mobile_form {text-align: center;margin: 30px 0 0 24px;}
+.mobile_form input {width: 100%; border-radius: 5px;}
+.mobile_form input[type="email"] {margin: 0 auto 12px auto;height: 48px;background-color: #ffffff; border: 1px solid #f1f1f1; padding-left: 15px;}
+.mobile_form input[type="submit"] {margin: 0 auto 12px auto;height: 48px;background-color: #29aae1; border: 0; color: #fff;}
+
+/*#aboutus .btn-next {display: none!important;}*/
+
+.price-wrapper {align-items: flex-start;}
+.price-item {padding: 0;}
+/*.price-item hr {margin: 0 15px;}*/
+.price-item hr {
+    margin: 0 0;
+}
+.price-item__plans {margin: 0;}
+.price-item__plans p {padding: 10px; margin: 0; border-bottom: 1px solid #e0e0e0;}
+.price-item__plans p:last-child {border-bottom: 0;}
+.price-item__top {min-height: 294px;}
+
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}*/
+/* Styles */
+
+@media only screen and (max-width: 768px) {
+
+  .show_mobile {display: block;}
+  .show_desctop {display: none;}
+  .navbar-toggler {width: 70px;height: 35px;background-color: #f8f9f9;border-radius: 5px;font-size: 12px;}
+  .navbar-toggler img {width: 12px;}
+  .navbar-brand img {width: 40px;}
+  .navbar-nav .show {background-color: #f8f9f9; border: 0; text-align: center;}
+
+  .price-item:nth-child(1) {border-right: 1px solid #e0e0e0;}
+  .price-item:nth-child(2) {border-right: 1px solid #e0e0e0;}
+  .price-item:nth-child(4) {border-left: 1px solid #e0e0e0;}
+   #navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #707070;
+    
+}
+
+ 
+    .user-details{
+        display: none !important;
+    }
+    .page-banner .title {
+    font-size: 18px;
+  
+    color: #B7B7B7;
+}
+
+.clients img {
+    padding: 23px 6px;
+}
+.testimonial-img img{
+    
+    display: none !important;
+}
+.about-tile {
+        font-weight: 600;
+    padding: 1px 12px;
+    font-size: 19px !important;
+    color: #6D7883;
+    font-family: yorkten-slab-normal, sans-serif;
+}
+.email-add a {
+    text-decoration: none;
+    padding: 36px 3px;
+    text-align: center;
+    color: #262626;
+    font-size: .8rem;
+}
+.mobile a {
+    text-decoration: none;
+    text-align: center;
+    color: #318637;
+    font-size: .8rem;
+}
+.social-icons img {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+.mobile-no {
+    background: #8df7b8;
+    height: 4.5rem;
+    margin: 0px auto;
+    margin-bottom: 33px;
+    border-radius: 5px;
+}
+.mobile a img {
+    padding: 22px 0px;
+}
+.email-id {
+     background: #ddd;
+    height: 4.5rem;
+    margin: 0px auto;
+    margin-bottom: 33px;
+    border-radius: 5px;
+}
+.email-add a img {
+    padding: 22px 0px;
+}
+.live-chat {
+    background: #19e658;
+    height: 4.5rem;
+    margin: 0px auto;
+    margin-bottom: 32px;
+    border-radius: 5px;
+}
+.chat-img {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.img-social{
+           margin-left: 4px;
+    
+}
+/*.clients img {
+     margin-bottom: 16px;
+}*/
+.clients1 {
+      margin-top: -33px;
+}
+
+
+
+.footer-box input{
+    width: 100% !important;
+    margin: 5px 0 !important;
+}
+ .getstart .nav-item {
+   margin-left: 20px!important;
+}
+
+.navbar-collapse {
+    margin-left: -31px;
+}
+.navbar {
+    margin: 0;
+    background: #040b38;
+}
+.dropdown-toggle:before {
+    position: absolute;
+    content: '>';
+    /* color: #707070; */
+    color: #fff;
+    font-weight: 400;
+    right: 110px;
+    transition: 0.3s;
+}
+.head {
+  
+   /* margin-left: 24px;
+    margin-right: 10px;*/
+    text-align: center;
+}
+
+.getstart .get-demo,.get-login{
+    display: none;
+}
+#aboutus {
+  padding-bottom: 0;
+    margin-top: 0;
+}
+.client-review {
+    padding: 15px 16px;
+    font-size: 14px;
+    color: #ABB6BE;
+    font-family: tahoma;
+}
+
+
+.page-title{
+        font-size: 30px;
+   }
+   .page-title {
+        color: #606C77;
+    margin-top: 16px;
+        margin-top: 10px;
+   font-family: yorkten-slab-normal, sans-serif;
+}
+/* mission mobile-view*/
+#defenition {
+  padding: 0;
+}
+.page-banner .missin-title{
+    font-size: 18px;
+}
+.core-plan img {
+    margin-top: 137px;
+    width: 94%;
+}
+.offset-2 {
+    margin-left: -3.333333%;
+}
+.defnition,.defenition{
+  font-size: 15px;
+  text-align: left;
+}
+.paragraph-core {
+    font-size: 15px;
+   
+}
+.price-title {
+   
+    font-size: 32px;
+   
+}
+.topado-defnition{
+	font-size: 25px;
+}
+
+}
+
+.show_mobile {display: none;}
+.navbar_close {display: none;}
+.mobile_login {text-align: center; color: #455360; font-weight: 500; margin-bottom: 20px;}
+.mobile_login img {margin-left: 5px;}
+.mobile_form {text-align: center;margin: 30px 0 0 24px;}
+.mobile_form input {width: 100%; border-radius: 5px;}
+.mobile_form input[type="email"] {margin: 0 auto 12px auto;height: 48px;background-color: #ffffff; border: 1px solid #f1f1f1; padding-left: 15px;}
+.mobile_form input[type="submit"] {margin: 0 auto 12px auto;height: 48px;background-color: #29aae1; border: 0; color: #fff;}
+
+#aboutus 
+/*.btn-next {display: none!important;}*/
+
+.price-wrapper {align-items: end;}
+.price-item {padding: 0;}
+/*.price-item hr {margin: 0 15px;}*/
+.price-item__plans {margin: 0;}
+.price-item__plans p {padding: 10px; margin: 0; border-bottom: 1px solid #e0e0e0; font-family: "San Francisco";
+    font-weight: 200;}
+.price-item__plans p:last-child {border-bottom: 0;}
+.price-item__top {min-height: 294px;}
+
+/*Use cases*/
+
+.use_header {padding: 150px 0;}
+.use_header .title {font-family: yorkten-slab-normal, sans-serif; color: #455360; font-weight: 300; margin-bottom: 20px; font-size: 57px;}
+/*.use_header p {width: 655px; max-width: 100%; margin: 0 auto 50px auto; color: #333333;font-family: "San Francisco";font-weight: 100;letter-spacing: 3px;}*/
+.use_header p{width: 655px; max-width: 100%; margin: 0 auto 50px auto; color: #455360; font-family: "San Francisco"; font-weight: 100;letter-spacing: 0;font-size: 20px;}
+/*.use_header img {width: 100%; max-width: 100%;}*/
+
+.use_testimonials {padding: 0 0 60px 0;}
+.use_testimonials .title {font-family: yorkten-slab-normal, sans-serif; color: #455360; font-weight: 300; margin-bottom: 80px;}
+.slide_item {padding: 0 25px 0 50px ;}
+.use_testimonials .slick-track {display: flex;flex-direction: row;flex-wrap: nowrap;align-items: stretch;}
+.use_testimonials .slick-active {border-right: 2px solid #d3d3d3; outline: none !important;}
+.use_testimonials .btn-previous {margin-top: 0; top: 25%; cursor: pointer;}
+.use_testimonials .btn-next {margin-top: 0; top: 25%; cursor: pointer;}
+.slide_item__img {display: inline-block; vertical-align: top;}
+.slide_item__img img{border-radius: 50%; border: 2px solid #d3d3d3;}
+.use_item__img_block img {display: inline-block; vertical-align: top; margin-top: -25px;}
+.slide_item__info {display: inline-block;}
+.slide_item__info p {color: #333333; min-height: 125px; padding-bottom: 25px;}
+.slide_item__info .title {color: #000000; margin-bottom: 0; font-family: "San Francisco"; font-weight: 500;}
+.use_item_img{
+max-width: 100%;
+}
+
+.use_item {padding: 100px 0;}
+.use_item img {width: 100%; max-width: 100%;}
+.use_item .row {justify-content: space-around;}
+.use_item .title {/*width: 350px*/ max-width: 100%; color: #455360; font-family: yorkten-slab-normal, sans-serif;font-size:38px; margin-bottom: 40px;font-weight: 300;}
+.use_item p {color: #333333;font-family: "San Francisco";font-weight: 200; font-size: 20px; margin-bottom: 30px;}
+.use_item h5 a{
+    color: #262626 !important; font-family: "San Francisco";
+    font-weight: 500;
+    transition: 1s all;
+}
+.use_item ul {padding: 0 0 0 20px;}
+.use_item ul li {color: #333333;font-family: "San Francisco";font-weight: 100;font-size: 20px; list-style: disc; margin-bottom: 20px;}
+
+.use_item__center .title {width: 100%;}
+.use_item__center p {width: 900px; max-width: 100%;}
+.use_item__img {width: 900px; max-width: 100%;}
+
+.use_item__bg {background-color: #f8f9f9;border-bottom: 1px solid rgba(0,0,0,.1);}
+.use_item__bg .row {align-items: center;}
+.use_item__bg .title {width: 100%;}
+.image_user{
+    width: 25px !important;
+}
+.use_item__info h5 a:hover{
+    color: red !important;
+}
+.learn_item_anchor{
+    font-size: 25px !important;
+    font-weight: 500;
+    font-family: "San Francisco",sans-serif;
+    color: #262626;
+}
+.shake_sections{
+   text-align: left;
+}
+
+/*pr mentions*/
+.pr_header{padding: 150px 0;}
+.pr_header .title{font-family:yorkten-slab-normal, sans-serif; color: #455360; font-weight: 300; margin-bottom: 20px; font-size: 57px;}
+ .pr_header p{width: 655px; max-width: 100%; margin: 0 auto 50px auto; color: #455360; font-family: "San Francisco"; font-weight: 100;letter-spacing: 0;font-size: 20px;}
+.pr_header img{width: 100%; max-width: 100%;}
+.pr_item .row {justify-content: space-around;}
+
+.pr_item__bg {    background-color: #f8f9f9;
+    padding-bottom: 50px;
+    padding-top: 50px; border-bottom: 1px solid rgba(0,0,0,.1);}
+.pr_item_center p{width: 900px; max-width: 100%;}
+/*.use_item__center p {width: 900px; max-width: 100%;}*/
+.pr_item_info .title{
+font-family:yorkten-slab-normal, sans-serif; color: #455360; font-weight: 300; margin-bottom: 20px; font-size: 38px;padding-top: 55px;
+}
+
+.pr_item_info{
+        padding-left: 55px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.use_item .pr_item_center{
+padding: 50px !important;
+}
+.pr_item_center .title{
+    font-family:yorkten-slab-normal, sans-serif; color: #455360; font-weight: 300; margin-bottom: 20px; font-size: 38px;
+width: 100%;
+    padding-bottom: 55px;
+}
+.pr_item_info p{
+       font-size: 20px;
+       color: #455360;
+    font-family: "San Francisco";
+    font-weight: 200;
+    width: 410px;
+    max-width: 100%;
+}
+.pr_item_info h5{
+  font-size: 20px;
+ 
+        font-family: "San Francisco";
+    font-weight: 200;  
+}
+.pr_item_info h5 {
+    font-size: 22px;
+    font-family: "San Francisco";
+    font-weight: 400;
+    color: #262626;
+    /* border-bottom: 1px solid; */
+}
+.pr_item_info_journel p{
+font-size: 20px;
+       color: #455360;
+    font-family: "San Francisco";
+    font-weight: 200;
+  
+}
+.pr_item_primary{
+    padding-top: 50px;
+}
+
+   
+
+
+.use__case_header{
+    padding: 100px 0;
+}
+
+
+.use__case_header .title{
+    font-family: yorkten-slab-normal, sans-serif;
+    color: #455360;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.core-plan_generation{
+        position: relative;
+    /* margin-top: -291px; */
+    border-radius: 5px;
+}
+.generate-title{
+    font-weight: 400;
+    font-size: 22px;
+    color: #262626;
+    margin-left: 21px;
+    text-align: left;
+    font-family: "San Francisco", sans-serif;
+    font-weight: 600;
+}
+.salespeople .title{
+        text-align: center;
+    max-width: 100%;
+    color: #455360;
+    font-family: yorkten-slab-normal, sans-serif;
+    margin-bottom: 80px;
+    font-weight: 300;
+    font-size: 38px;
+}
+.salespeople img{
+    width: 80px;
+}
+
+/*feature page*/
+
+
+.shake_sections {display: flex; align-items: center; margin-bottom: 50px;}
+.shake_sections img {margin-right: 20px;}
+.shake_sections p {color: #969696; width: 60%; max-width: 100%;}
+/*feature and privacy securitys*/
+
+
+/*Bohdan heatures styles*/
+
+.image_main img {width: 100%; max-width: 100%; padding-top:85px;}
+
+.features_header {background-color: #f8f9f9; padding: 150px 0 160px;}
+.features_header .title {color: #455360;font-family: yorkten-slab-normal, sans-serif;font-size: 62px;font-weight: 300;letter-spacing: 1.75px;margin-bottom: 30px;}
+.features_header p {margin-bottom: 35px;color: #333333;font-family: "San Francisco";font-size: 22px;font-weight: 100;letter-spacing: 3px;}
+.features_header a {display: flex;align-items: center;justify-content: center;color: #ffffff;font-family: "San Francisco";font-size: 16px;font-weight: 300;width: 250px;height: 45px;background-color: #356ae6;border-radius: 8px;transition: 0.3s;}
+.features_header a:hover {transition: 0.3s;background-color: #707070;color: #fff;box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);}
+.features_header img {width: 100%; max-width: 100%;}
+
+.feature_item {padding: 55px 0 30px 0;overflow: hidden;}
+.feature_item .title {font-size: 38px;margin: 30px 0 25px 0; color: #455360;font-family: yorkten-slab-normal, sans-serif;font-weight: 300;letter-spacing: 1.6px;}
+.feature_item .text {color: #455360;font-family: "San Francisco";font-size: 16px;font-weight: 400;letter-spacing: 2.6px;}
+.feature_item ul {padding-left: 0; margin-bottom: 50px;}
+.feature_item ul li {position: relative;display: flex;align-items: end; padding-left: 30px;margin-bottom: 15px;}
+.feature_item ul li:before {position: absolute;content: '';width: 15px; height: 15px;background-image: url('../images/icon_list.png');background-size: cover;background-repeat: no-repeat; left: 0;top: 5px;}
+
+.three_features {padding: 70px 0 50px 0;border-bottom: 1px solid #e0e0e0;}
+.three_features .title {display: flex;align-items: center;display: inline-block;font-size: 22px;color: #0e0e0e;font-family: "San Francisco";font-weight: 500; margin-bottom: 25px;}
+.three_features .title img {width: 50px;margin: 0 25px 0 0;}
+.three_features img {width: 100%; max-width: 100%; margin-bottom: 25px;}
+.three_features p {color: #455360;font-family: "San Francisco";font-size: 18px;font-weight: 500;letter-spacing: 3.4px;}
+.three_features__item {margin-bottom: 30px;}
+
+
+/*Bohdan privacy page*/
+
+.privacy {padding: 70px 0; border-bottom: 1px solid #eee;}
+.privacy h1 {text-align: center; margin-bottom: 50px;font-family: yorkten-slab-normal, sans-serif; font-size: 57px; width: 100%; color: #455360; font-weight: 400;}
+.privacy ul {padding-left: 40px;}
+.et_pb_text_inner strong{color: #455360;font-family: "San Francisco";font-weight: 500;font-size: 18px;}
+
+@media only screen and (max-width: 768px) {
+  .show_mobile {display: block; color: #fff;}
+  .show_desctop {display: none;}
+  .navbar-toggler {width: 70px;height: 35px;background-color: #f8f9f9;border-radius: 5px;font-size: 12px;}
+  .navbar-toggler img {width: 12px;}
+  .navbar-brand img {width: 40px;}
+  .navbar-nav .show {background-color: #f8f9f9; border: 0; text-align: center;}
+
+  .price-item:nth-child(1) {border-right: 1px solid #e0e0e0;}
+  .price-item:nth-child(2) {border-right: 1px solid #e0e0e0;}
+  .price-item:nth-child(4) {border-left: 1px solid #e0e0e0;}
+
+ /* .use_testimonials .btn-previous {display: none!important;}
+  .use_testimonials .btn-next {display: none!important;}*/
+  .use_item {padding: 30px 0;}
+  .use_item .title {width: 100%;}
+  .use_item__img {order: 1; margin-bottom: 30px;}
+  .use_item .row {padding: 0 15px;}
+  .use_header .title {
+    font-family: yorkten-slab-normal, sans-serif;
+    color: #455360;
+    font-weight: 300;
+    margin-bottom: 20px;
+    
+
+}
+.use_header {padding: 10px 0;}
+.pr_header .title,.pr_item_info .title, .pr_item_center .title,.use_header .title,.use_item__info .title,#salespeople .title {font-size: 30px;}
+.page-banner span{
+    font-size: 18px;
+}
+.clients-title{font-size: 22px;} 
+.pr_header,.use_header {
+    padding: 0;
+    padding-top: 25px;
+}   
+
+.pr_item{
+    padding-top: 50px !important;
+}
+.faq-title {font-size: 23px;}.questions-sec{font-size: 21px;}.footer-title {font-size: 33px;}
+.use_header .title{
+    font-size: 31px !important;
+}
+.features_header .title,.privacy h1 { font-size: 31px !important;}
+.privacy{
+    padding: 30px;
+}
+.image_main img {
+    width: 100%;
+    max-width: 100%;
+    }
+    .personal-desc {
+    /* margin-left: 51px; */
+    padding: 0 !important;
+    margin: 0  !important;
+}
+.prices-section {
+   
+    padding: 25px;
+}
+  .price-plan-priority,.price-plan-dedicated,.price-plan-normal{
+ 	margin-top: 25px !important;
+ }
+}
+
+
+/*#aboutus .btn-next {display: none!important;}*/
+
+/*Bogdan custom styles*/
+
+.home-images img {width: 100%; max-width: 100%;}
+
+.slick_home_slider .slick-dots li {margin: 0 3px; width: 55px; height: 5px; border:none; outline: none;}
+.slick_home_slider .slick-dots li button {margin: 0 3px; width: 55px; height: 5px;}
+.slick_home_slider .slick-dots li button:before {background-color: #f4f5f5; color: transparent; opacity: 1; width: 55px; height: 5px; margin: 0 3px; border-radius: 20px;}
+.slick_home_slider .slick-dots .slick-active {width: 103px;}
+.slick_home_slider .slick-dots .slick-active button:before {width: 103px;background-color: #53cfeb;}
+
+
+
+ 
+  .slick_home_slider p {
+    font-size: 18px;}
+    .home-desc,.personal-defnition,.automated__desc,.powerful__desc,#features_header .title{font-size: 16px;}
+
+
+
+/*Bohdan heatures styles*/
+
+.image_main img {width: 100%; max-width: 100%;}
+
+.features_header {background-color: #f8f9f9; padding: 150px 0 160px;}
+.features_header .title {color: #455360;font-family: yorkten-slab-normal, sans-serif;font-size: 57px;font-weight: 300;letter-spacing: 1.75px;margin-bottom: 30px;}
+.features_header p {margin-bottom: 35px;color: #333333;font-family: "San Francisco";font-size: 22px;font-weight: 100;letter-spacing: 0 !important;}
+.features_header a {display: flex;align-items: center;justify-content: center;color: #ffffff;font-family: "San Francisco";font-size: 16px;font-weight: 300;width: 250px;height: 45px;background-color: #356ae6;border-radius: 8px;transition: 0.3s;}
+.features_header a:hover {transition: 0.3s;background-color: #707070;color: #fff;box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);}
+.features_header img {width: 100%; max-width: 100%;}
+
+.feature_item {padding: 55px 0 30px 0;overflow: hidden;}
+.feature_item .title {font-size: 38px;margin: 30px 0 25px 0; color: #455360;font-family: yorkten-slab-normal, sans-serif;font-weight: 300;letter-spacing: 1.6px;}
+.feature_item .text {color: #455360;font-family: "San Francisco";font-size: 20px;font-weight: 200;letter-spacing: 0px !important;}
+
+.feature_item ul {padding-left: 0; margin-bottom: 50px;}
+.feature_item ul li {position: relative;display: flex;align-items: end; padding-left: 30px;margin-bottom: 15px;}
+.feature_item ul li:before {position: absolute;content: '';width: 15px; height: 15px;background-image: url('../images/icon_list.png');background-size: cover;background-repeat: no-repeat; left: 0;top: 5px;}
+
+.three_features {padding: 70px 0 50px 0;border-bottom: 1px solid #e0e0e0;}
+.three_features .title {display: flex;align-items: center;display: inline-block;font-size: 22px;color: #0e0e0e;font-family: "San Francisco";font-weight: 500; margin-bottom: 25px;}
+.three_features .title img {width: 50px;margin: 0 25px 0 0;}
+.three_features img {width: 100%; max-width: 100%; margin-bottom: 25px;}
+.three_features p {color: #455360;font-family: "San Francisco";font-size: 18px;font-weight: 500;letter-spacing: .4px;padding-left: 10px;}
+.three_features__item {margin-bottom: 30px;}
+/* jaseel feature poerfull*/
+
+.powerfull__title{
+    font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+       padding-top: 90px;
+        color: #455360;
+        padding-bottom: 25px;
+    }
+    .powerful__desc{
+    font-size: 19px;
+    color: #858E96;
+    font-family: "San Francisco";
+    font-weight: 500;
+    padding-bottom: 22px;
+}
+.function__section{
+    width: 100%;
+
+}
+.get__team-def{
+        padding-bottom: 40px;
+}
+.get__images .image_main img{
+
+    padding-top: 84px;
+
+}
+.function_defnition .function-title {
+       display: inline-block;
+    font-size: 18px;
+    color: #333333;
+
+    margin-left: 25px;
+    position: relative;
+    top: -25px;
+    font-family: "San Francisco";
+    font-weight: 500;
+}
+.description{
+   position: relative;
+    margin-left: 127px;
+    top: -57px;
+   /* color: #969696;*/
+   color: #333333;
+    font-weight: 400;
+    font-family: "San Francisco";
+    
+}
+.function_defnition .function__title__sales{
+display: inline-block;
+    font-size: 18px;
+    color: #0e0e0e;
+
+    margin-left: 25px;
+    position: relative;
+       top: -5px;
+    font-family: "San Francisco";
+    font-weight: 500;
+}
+.description__sales{
+      position: relative;
+    margin-left: 127px;
+    top: -42px;
+    /*color: #969696;*/
+    color: #333333;
+    font-weight: 400 !important;
+    font-family: "San Francisco";
+ 
+}
+.get__title{
+     font-family: yorkten-slab-normal, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+        font-size: 38px;
+    padding-top: 50px;
+    color: #455360;
+  padding-bottom: 40px;
+}
+
+.get__images{
+        margin-left: 17px;
+       margin-top: 60px;
+
+    width: 100%;
+}
+.get_team_boxes{
+      width: 100%;
+    border: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    background: #fff;
+}
+.get_team_boxes p{
+
+    font-family: "San Francisco";
+    font-size: 18px;
+    font-weight: 200;
+    color: #455360;
+}
+.team_defnitions_sales{
+     height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.team_defnitions_teams{
+     width: 133px;
+    position: absolute;
+    right: 0;
+    margin-top: -145px;
+    padding-top: 7px;
+}
+.box-title{
+        padding-top: 12px;
+    padding-bottom: 20px;
+    color: #71cc77;
+    font-size: 23px;
+}
+.get__team-def .operation_title{
+    color: #fcb415 !important;
+        font-size: 23px;
+} 
+.get__team-def .sales_teams{
+    color: #34e2d9 !important;
+}
+.team_defnitions{
+  
+            height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    }   
+    #get__teams-sec {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    background: #F8F9F9;
+    /*overflow: hidden;*/
+}
+.automated__quote{
+        
+    margin-left: 21px;
+   font-size: 20px;
+    font-family: yorkten-slab-normal, sans-serif;
+  
+    font-weight: 700;
+    color: #4F5D6B;
+    margin-top: 2px;
+}
+.personal-desc{
+        margin-left: 51px;
+    width: 100%;
+    padding-top: 95px;
+}
+.personal-desc:nth-child(2){
+    padding-left: 50px !important;
+}
+
+/* managed email page outreachplus by jaseel */
+
+.warm__leads{
+   
+    padding: 60px 0 50px 0;
+    width: 100%;
+    overflow: hidden;
+    background: #040b38;
+    background-size: cover;
+}
+.warm_leads_section h2{
+    padding-top: 40px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+    /* padding-top: 30px; */
+    color: #fff;
+    padding-bottom: 10px;
+}
+.warm__leads .home_manage{
+    padding-top: 43px;
+}
+.warm__leads .home_image
+{
+padding-bottom: 43px;
+padding-top: 43px;
+
+}
+.warm__leads p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    width: 400px;
+    max-width: 100%;
+    left: 4px;
+    position: relative;
+}
+.yellow_boxes p{
+    color: #455360;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 16px;
+    width: 460px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+.green__boxes p{
+    color: #455360;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 16px;
+    width: 480px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.sales_pipeline{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.sales_pipeline .title{
+    padding-bottom: 18px;
+    padding-top: 50px;
+    font-size: 44px;
+    font-weight: 300;
+    color: #455360;
+    font-family: yorkten-slab-normal, sans-serif;
+}
+.sales_pipeline .desc{
+    font-size: 22px;
+    color: #999;
+    font-weight: 200;
+    
+    max-width: 100%;
+    padding-bottom: 40px;
+    
+    
+}
+.get_icon{
+    padding-bottom: 24px;
+    padding-top: 20px;
+}
+.get_icon .icon_title{
+    position: relative;
+    left: 19px;
+    top: 3px;
+    font-size: 20px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 700;
+    color: #455360;
+    
+}
+.what_you_get img{
+width: 30px;
+height: 30px;
+}
+.what_you_get h2{
+    padding-top: 10px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 500;
+    color: #455360;
+    font-size: 46px;
+    padding-bottom: 20px;
+  
+}
+.what_you_get p{
+    color: #455360;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 10px;  
+}
+.email_campaign_img{
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.what_you_get ul{
+    list-style: none;
+    color: #455360;
+    font-family: "San Francisco";
+    font-weight: 300;
+    font-size: 20px;
+   padding-top: 30px;
+
+}
+.what_you_get ul img{
+   width: 15px;
+   height: 15px;
+   margin-right: 9px;
+}
+#how-works_sec{
+    padding:50px 0 50px 0;
+    background: #e0e0e0;
+}
+#how-works_sec .title-secs h2{
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 500;
+    color: #455360;
+    font-size: 46px;  
+}
+/* .how_its__works{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #e0e0e0;
+} */
+.how_its__wrapper{
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.its_wrap_sec{
+    position: relative;
+    top: 25px;
+    min-height: 166px;
+}
+.its_wrapp_main{
+    padding-bottom: 33px;
+}
+.its_wrap_sec p{
+    font-size: 20px;
+    width: 466px;
+    padding-bottom: 30px;
+    max-width: 100%;
+    font-family: "San Francisco";
+    font-weight: 300;
+}
+
+.img-icons img{
+    width: 60px;
+    height: 60px;
+}
+.icons_desc {
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+.icons_desc img{
+    width: 60px;
+    height: 60px;
+}
+.icon-texts{
+    display: flex;
+    padding-top: 30px;
+}
+.icon-texts span{
+    width: 23px;
+    height: 23px;
+    background:#455360;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.icon-texts h4{
+    left: 21px;
+    position: relative;
+    top: -4px;
+    color: #455360;
+    right: 10px;
+}
+.icons_desc  p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 200;
+    width: 450px;
+    max-width: 100%;
+}
+.align-center {
+    text-align: center;
+}
+.center{
+    margin: auto;
+}
+.email_manage_testimonials{
+    background: #455360;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 85px;
+}
+.email_manage_testimonials .slick_home_slider p {
+    font-size: 25px;
+    color: #fff;
+}
+.email_manage_testimonials h4{
+    padding-top: 20px;
+    font-family: yorkten-slab-normal, sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+   
+}
+.slick_home_slider {
+    padding-bottom: 30px;
+}
+.testimonial_slick img{
+    width: 47px;
+    height: 47px;
+}
+
+
+.slick_home_slider .slick-dots li button::before {
+    background-color:  rgb(174, 186, 197);
+    color: transparent;
+    opacity: 1;
+    width: 55px;
+    height: 5px;
+    margin: 0px 3px;
+    border-radius: 20px;
+}
+.slick-next:before, .slick-prev:before {display: none;}
+.email_manage_testimonials .slick_home_slider .slick-dots .slick-active button:before {
+    width: 103px;
+    background-color: #fff;
+}
+.testimonials_slider{
+    overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+    .warm__leads{
+        padding: 0;
+    }
+    .warm_leads_section h2 {
+        font-size: 36px;
+    }
+    .sales_pipeline{
+        padding: 20px 0 20px 0;
+    }
+    .sales_pipeline .title {
+        font-size: 36px;
+    }
+    .what_you_get h2{
+        font-size: 36px;
+    }
+    .how_its__works h2{
+        font-size: 36px;
+    }
+    .icon-texts h4{
+        left: 8px;
+    }
+    .email_manage_testimonials h4{
+        padding-top: 0;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+/*end of manages page by jaseel*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .home-images {margin-left: 0;}
+    .getstart .get-demo {
+    align-items: center;
+    padding: 10px 10px;
+    transition: 0.5s all;
+    background: #356AE6;
+    color: #fff !important;
+    border-radius: 7px;
+    margin-left: 22px;
+    width: 114px;
+}
+.navbar-light .getstart .get-login {
+   
+    margin-left: 13px;
+}
+   
+}
+
+@media only screen and (max-width: 1024px) {
+   .function_defnition {display: flex; flex-direction: column;}
+    .function_defnition img {margin-bottom: 20px;}
+    .function_defnition .function-title {margin-left: 0; top: 0;}
+    .function_defnition .function__title__sales {margin-left: 0; top: 0;}
+    .function_defnition .description {margin-left: 0; top: 0;}
+    .function_defnition .description__sales {margin-left: 0; top: 0;}
+    
+    .features_header img {margin-top: 30px;}
+    .feature_item:nth-child(even) .col-md-6:first-child {order: 2;}
+    .feature_item:nth-child(even) .col-md-6:nth-child(2) {order: 1;}
+}
+
+
+
